@@ -33,6 +33,7 @@ node {
             // need to pull out assigned username
             rmsg = sh returnStdout: true, script: "sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
             println('Hello from a Job DSL script!')
+            println('Branch Name : ' + env.BRANCH_NAME)
             println('rmsg:' + rmsg)
             def beginIndex = rmsg.indexOf('{')
             def endIndex = rmsg.indexOf('}')
