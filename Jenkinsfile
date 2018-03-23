@@ -36,7 +36,6 @@ def isPRMergeBuild() {
 
 def checkoutSource() {
     stage('checkout source') {
-        // when running in multi-branch job, one must issue this command
         checkout scm
     }
 }
@@ -54,20 +53,11 @@ def createScratchOrg() {
 
             // need to pull out assigned username
             rmsg = sh returnStdout: true, script: "sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
-            println('Hello from a Job DSL script!')
-            println('Branch Name : ' + env.BRANCH_NAME)
-            println('Is PR Branch : ' + isPRMergeBuild())
-            println('rmsg:' + rmsg)
             def beginIndex = rmsg.indexOf('{')
             def endIndex = rmsg.indexOf('}')
-            println('beginIndex: ' + beginIndex)
-            println('endIndex: ' + endIndex)
             def jsobSubstring = rmsg.substring(beginIndex)
-            println('jsobSubstring: ' + jsobSubstring)
             def jsonSlurperClass = new JsonSlurperClassic()
             def robj = jsonSlurperClass.parseText(jsobSubstring)
-            println('robj: ' + robj)
-            //if (robj.status != "ok") { error 'org creation failed: ' + robj.message }
             SFDC_USERNAME = robj.result.username
             robj = null
 
