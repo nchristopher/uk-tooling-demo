@@ -34,6 +34,7 @@ node {
             rmsg = sh returnStdout: true, script: "sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
             println('Hello from a Job DSL script!')
             println('Branch Name : ' + env.BRANCH_NAME)
+            println('Is PR Branch : ' + isPRMergeBuild())
             println('rmsg:' + rmsg)
             def beginIndex = rmsg.indexOf('{')
             def endIndex = rmsg.indexOf('}')
@@ -80,5 +81,8 @@ node {
         }
         
     }
+}
+def isPRMergeBuild() {
+    return (env.BRANCH_NAME ==~ /^PR-\d+$/)
 }
 
