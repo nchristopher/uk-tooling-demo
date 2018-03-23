@@ -30,6 +30,7 @@ node {
 }
 
 def isPRMergeBuild() {
+    println('Branch Name : '+ BRANCH_NAME)
     return (BRANCH_NAME == ~/^PR-\d+$/)
 }
 
