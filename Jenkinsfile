@@ -12,13 +12,32 @@ node {
     //def JWT_KEY_CRED_ID = env.JWT_KEY_FILE
     def JWT_KEY_CRED_ID = 'JWT_KEY_FILE'
     def CONNECTED_APP_CONSUMER_KEY = 'CONNECTED_APP_CONSUMER_KEY'
-
-
-    stage('checkout source') {
-        // when running in multi-branch job, one must issue this command
-        checkout scm
+    if(isPRMergeBuild()){
+        checkoutSource()
+        createScratchOrg()
+        pushSource()
+        runApexTests()
+        deleteScratchOrg()
+    }else{
+        checkoutSource()
+        createScratchOrg()
+        pushSource()
+        deleteScratchOrg()
     }
 
+}
+
+def isPRMergeBuild() {
+    return (env.BRANCH_NAME ==~ /^PR-\d+$/)
+}
+
+def checkoutSource(){
+   stage('checkout source') {
+        // when running in multi-branch job, one must issue this command
+        checkout scm
+    } 
+}
+def createScratchOrg(){
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file'),
         string(credentialsId: HUB_ORG, variable: 'HUB'),
         string(credentialsId: CONNECTED_APP_CONSUMER_KEY, variable: 'CONNECTED_APP_KEY')
@@ -50,34 +69,36 @@ node {
             robj = null
 
         }
-        stage('Push Source Test Org') {
-            rc = sh returnStatus: true, script: "sfdx force:source:push --targetusername ${SFDC_USERNAME}"
-            if (rc != 0) {
-                error 'push failed'
-            }
-        }
-        stage('Run Apex Test') {
-            sh "mkdir -p ${RUN_ARTIFACT_DIR}"
-            timeout(time: 120, unit: 'SECONDS') {
-                rc = sh returnStatus: true, script: "sfdx force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
-                if (rc != 0) {
-                    error 'apex test run failed'
-                }
-            }
-        }
-        stage('Delete Test Org') {
+}
 
-            timeout(time: 120, unit: 'SECONDS') {
-                rc = sh returnStatus: true, script: "sfdx force:org:delete --targetusername ${SFDC_USERNAME} --noprompt"
-                if (rc != 0) {
-                    error 'org deletion request failed'
-                }
+def deleteScratchOrg(){
+    stage('Delete Test Org') {
+        timeout(time: 120, unit: 'SECONDS') {
+            rc = sh returnStatus: true, script: "sfdx force:org:delete --targetusername ${SFDC_USERNAME} --noprompt"
+            if (rc != 0) {
+                error 'org deletion request failed'
             }
         }
-        
     }
 }
-def isPRMergeBuild() {
-    return (env.BRANCH_NAME ==~ /^PR-\d+$/)
+
+def runApexTests(){
+    stage('Run Apex Test') {
+        sh "mkdir -p ${RUN_ARTIFACT_DIR}"
+        timeout(time: 120, unit: 'SECONDS') {
+            rc = sh returnStatus: true, script: "sfdx force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
+            if (rc != 0) {
+                error 'apex test run failed'
+            }
+        }
+    }
 }
 
+def pushSource(){
+    stage('Push Source Test Org') {
+        rc = sh returnStatus: true, script: "sfdx force:source:push --targetusername ${SFDC_USERNAME}"
+        if (rc != 0) {
+            error 'push failed'
+        }
+    }
+}
