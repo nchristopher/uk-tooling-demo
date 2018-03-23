@@ -12,6 +12,7 @@ node {
     //def JWT_KEY_CRED_ID = env.JWT_KEY_FILE
     JWT_KEY_CRED_ID = 'JWT_KEY_FILE'
     CONNECTED_APP_CONSUMER_KEY = 'CONNECTED_APP_CONSUMER_KEY'
+    println('Is pr : ' + isPRMergeBuild())
     if (isPRMergeBuild()) {
         checkoutSource()
         createScratchOrg()
