@@ -6,6 +6,7 @@ node {
     BUILD_NUMBER = env.BUILD_NUMBER
     RUN_ARTIFACT_DIR = "tests/${BUILD_NUMBER}"
     SFDC_USERNAME = ''
+    BRANCH_NAME = env.BRANCH_NAME
 
     HUB_ORG = 'HUB_ORG'
     //def SFDC_HOST = env.SFDC_HOST_DH
@@ -29,7 +30,7 @@ node {
 }
 
 def isPRMergeBuild() {
-    return (env.BRANCH_NAME == ~/^PR-\d+$/)
+    return (BRANCH_NAME == ~/^PR-\d+$/)
 }
 
 def checkoutSource() {
