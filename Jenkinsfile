@@ -3,15 +3,15 @@
 import groovy.json.JsonSlurperClassic
 node {
 
-    def BUILD_NUMBER = env.BUILD_NUMBER
-    def RUN_ARTIFACT_DIR = "tests/${BUILD_NUMBER}"
-    def SFDC_USERNAME
+    BUILD_NUMBER = env.BUILD_NUMBER
+    RUN_ARTIFACT_DIR = "tests/${BUILD_NUMBER}"
+    SFDC_USERNAME
 
-    def HUB_ORG = 'HUB_ORG'
+    HUB_ORG = 'HUB_ORG'
     //def SFDC_HOST = env.SFDC_HOST_DH
     //def JWT_KEY_CRED_ID = env.JWT_KEY_FILE
-    def JWT_KEY_CRED_ID = 'JWT_KEY_FILE'
-    def CONNECTED_APP_CONSUMER_KEY = 'CONNECTED_APP_CONSUMER_KEY'
+    JWT_KEY_CRED_ID = 'JWT_KEY_FILE'
+    CONNECTED_APP_CONSUMER_KEY = 'CONNECTED_APP_CONSUMER_KEY'
     if (isPRMergeBuild()) {
         checkoutSource()
         createScratchOrg()
