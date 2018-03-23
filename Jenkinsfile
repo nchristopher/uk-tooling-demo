@@ -31,7 +31,7 @@ node {
 
 def isPRMergeBuild() {
     println('Branch Name : '+ BRANCH_NAME)
-    return (BRANCH_NAME == ~/^PR-\d+$/)
+    return (BRANCH_NAME.startsWith('PR-'))
 }
 
 def checkoutSource() {
