@@ -12,13 +12,13 @@ node {
     //def JWT_KEY_CRED_ID = env.JWT_KEY_FILE
     def JWT_KEY_CRED_ID = 'JWT_KEY_FILE'
     def CONNECTED_APP_CONSUMER_KEY = 'CONNECTED_APP_CONSUMER_KEY'
-    if(isPRMergeBuild()){
+    if (isPRMergeBuild()) {
         checkoutSource()
         createScratchOrg()
         pushSource()
         runApexTests()
         deleteScratchOrg()
-    }else{
+    } else {
         checkoutSource()
         createScratchOrg()
         pushSource()
@@ -28,16 +28,16 @@ node {
 }
 
 def isPRMergeBuild() {
-    return (env.BRANCH_NAME ==~ /^PR-\d+$/)
+    return (env.BRANCH_NAME == ~/^PR-\d+$/)
 }
 
-def checkoutSource(){
-   stage('checkout source') {
+def checkoutSource() {
+    stage('checkout source') {
         // when running in multi-branch job, one must issue this command
         checkout scm
-    } 
+    }
 }
-def createScratchOrg(){
+def createScratchOrg() {
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file'),
         string(credentialsId: HUB_ORG, variable: 'HUB'),
         string(credentialsId: CONNECTED_APP_CONSUMER_KEY, variable: 'CONNECTED_APP_KEY')
@@ -69,9 +69,9 @@ def createScratchOrg(){
             robj = null
 
         }
+    }
 }
-
-def deleteScratchOrg(){
+def deleteScratchOrg() {
     stage('Delete Test Org') {
         timeout(time: 120, unit: 'SECONDS') {
             rc = sh returnStatus: true, script: "sfdx force:org:delete --targetusername ${SFDC_USERNAME} --noprompt"
@@ -82,7 +82,7 @@ def deleteScratchOrg(){
     }
 }
 
-def runApexTests(){
+def runApexTests() {
     stage('Run Apex Test') {
         sh "mkdir -p ${RUN_ARTIFACT_DIR}"
         timeout(time: 120, unit: 'SECONDS') {
@@ -94,7 +94,7 @@ def runApexTests(){
     }
 }
 
-def pushSource(){
+def pushSource() {
     stage('Push Source Test Org') {
         rc = sh returnStatus: true, script: "sfdx force:source:push --targetusername ${SFDC_USERNAME}"
         if (rc != 0) {
