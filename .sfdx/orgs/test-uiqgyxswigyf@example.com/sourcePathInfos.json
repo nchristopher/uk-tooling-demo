@@ -1,0 +1,347 @@
+[
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "afa93b7c40deab8cdbd247350ad17a9bc39369cd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1526313849808,
+            "changeTime": 1526313849808,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 192,
+            "modifiedTime": 1526314085040,
+            "changeTime": 1526314085040,
+            "contentHash": "2ed1966858a69d044a020a30defd95645b188ea7"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "7c3f6f78ff109fd7e2aef155135c59d5ebbc1331",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/classes/SampleClass.cls",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/classes/SampleClass.cls",
+            "isDirectory": false,
+            "size": 76,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "651703f87f4ea3d6ec1f3299b547d4121b88c339",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/classes/SampleClass.cls-meta.xml",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/classes/SampleClass.cls-meta.xml",
+            "isDirectory": false,
+            "size": 189,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "747201c8042fe26a9f1a0a086997f37bb657057f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/test",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/test",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "1adaa84dc07a16d34ede5b9a70713ff832a0f853",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/test/classes",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/test/classes",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "0127c0f6298181c8a1a817e88b62874bd298b84c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/test/classes/SampleClassTest.cls",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/test/classes/SampleClassTest.cls",
+            "isDirectory": false,
+            "size": 169,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "64757d7d5a73d607e8d02cdecacb83e1bd0e1d79",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/test/classes/SampleClassTest.cls-meta.xml",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/test/classes/SampleClassTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 193,
+            "modifiedTime": 1526313849809,
+            "changeTime": 1526313849809,
+            "contentHash": "c271bdcf6ecc996ae1cd4c0cf8016f3252de2714",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3",
+        {
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1526313901919,
+            "changeTime": 1526313901919,
+            "contentHash": "8a55051a073538114e12b2bc88988184d7669b2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects/Account/fields/Sample12__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects/Account/fields/Sample12__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 368,
+            "modifiedTime": 1526314084992,
+            "changeTime": 1526314084992,
+            "contentHash": "5e6808d6059ec82466607972818aa283eb060363"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9756,
+            "modifiedTime": 1526314085014,
+            "changeTime": 1526314085014,
+            "contentHash": "469317759f53cb9bf722525f012f0b28473bfcb1"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9708,
+            "modifiedTime": 1526314085023,
+            "changeTime": 1526314085023,
+            "contentHash": "cb6aef990148a5d45752ac5fcfd92a040441c60e"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9756,
+            "modifiedTime": 1526314085031,
+            "changeTime": 1526314085031,
+            "contentHash": "762a4816223586cca42f7fd56efca0971a1ad80b"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9708,
+            "modifiedTime": 1526314085036,
+            "changeTime": 1526314085036,
+            "contentHash": "142c350eed1e6d1eb1c8669876b55f0704486a32"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4830,
+            "modifiedTime": 1526314085043,
+            "changeTime": 1526314085043,
+            "contentHash": "b5736f8426e1287ff9362a3e6f1821722f34bb4b"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 4834,
+            "modifiedTime": 1526314085047,
+            "changeTime": 1526314085047,
+            "contentHash": "14cce446de8b679aae8fd8da3ff4032e33d910a1"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 5170,
+            "modifiedTime": 1526314085053,
+            "changeTime": 1526314085053,
+            "contentHash": "28050007f24e33f307578dc951f6c7c73f89b062"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 17872,
+            "modifiedTime": 1526314085062,
+            "changeTime": 1526314085062,
+            "contentHash": "1b36fc5ee4c5f1ed8c42c7d37407aa8aec26b7c4"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects/Account/fields",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects/Account/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1526314084992,
+            "changeTime": 1526314084992,
+            "contentHash": "5795cff561ba90a63afc6c394b0af56e1b110626"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects/Account",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects/Account",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1526314084991,
+            "changeTime": 1526314084991,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1526314084991,
+            "changeTime": 1526314084991,
+            "contentHash": "85dfa32c97d8618d1bea083609e2c8a29845abe5"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 192,
+            "modifiedTime": 1526314085036,
+            "changeTime": 1526314085036,
+            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0"
+        }
+    ],
+    [
+        "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles",
+        {
+            "state": "u",
+            "sourcePath": "/Users/spatnaik/Desktop/ksddemo3/force-app/main/default/profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 192,
+            "modifiedTime": 1526314085062,
+            "changeTime": 1526314085062,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+        }
+    ]
+]
