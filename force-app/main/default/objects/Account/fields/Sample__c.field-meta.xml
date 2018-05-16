@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <label>Sample</label>
     <length>255</length>
-    <required>false</required>
+    <required>true</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Text</type>
     <unique>false</unique>
