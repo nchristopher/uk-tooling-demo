@@ -1,0 +1,191 @@
+[
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1522004769479,
+            "changeTime": 1522004769479,
+            "contentHash": "afa93b7c40deab8cdbd247350ad17a9bc39369cd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1522004769478,
+            "changeTime": 1522004769478,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default",
+        {
+            "state": "u",
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1522005088238,
+            "changeTime": 1522005088238,
+            "contentHash": "ac7069612db5b4d823bdef9ac64f31bece3c78ea"
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1522004769479,
+            "changeTime": 1522004769479,
+            "contentHash": "7c3f6f78ff109fd7e2aef155135c59d5ebbc1331",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/classes/SampleClass.cls",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/classes/SampleClass.cls",
+            "isDirectory": false,
+            "size": 76,
+            "modifiedTime": 1522004769478,
+            "changeTime": 1522004769478,
+            "contentHash": "651703f87f4ea3d6ec1f3299b547d4121b88c339",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/classes/SampleClass.cls-meta.xml",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/classes/SampleClass.cls-meta.xml",
+            "isDirectory": false,
+            "size": 189,
+            "modifiedTime": 1522004769479,
+            "changeTime": 1522004769479,
+            "contentHash": "747201c8042fe26a9f1a0a086997f37bb657057f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1522004769479,
+            "changeTime": 1522004769479,
+            "contentHash": "1adaa84dc07a16d34ede5b9a70713ff832a0f853",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test/classes",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test/classes",
+            "isDirectory": true,
+            "size": 128,
+            "modifiedTime": 1522004769479,
+            "changeTime": 1522004769479,
+            "contentHash": "0127c0f6298181c8a1a817e88b62874bd298b84c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test/classes/SampleClassTest.cls",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test/classes/SampleClassTest.cls",
+            "isDirectory": false,
+            "size": 169,
+            "modifiedTime": 1522004769479,
+            "changeTime": 1522004769479,
+            "contentHash": "64757d7d5a73d607e8d02cdecacb83e1bd0e1d79",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test/classes/SampleClassTest.cls-meta.xml",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/test/classes/SampleClassTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 193,
+            "modifiedTime": 1522004769479,
+            "changeTime": 1522004769479,
+            "contentHash": "c271bdcf6ecc996ae1cd4c0cf8016f3252de2714",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex",
+        {
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex",
+            "isDirectory": true,
+            "size": 320,
+            "modifiedTime": 1522004935234,
+            "changeTime": 1522004935234,
+            "contentHash": "8a55051a073538114e12b2bc88988184d7669b2f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/workflows/Account.workflow-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/workflows/Account.workflow-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 296,
+            "modifiedTime": 1522005088239,
+            "changeTime": 1522005088239,
+            "contentHash": "1511549644c39e325943f14672e04a601dc034c6"
+        }
+    ],
+    [
+        "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/workflows",
+        {
+            "state": "u",
+            "sourcePath": "/Users/nchristopher/Documents/DX-Migration/uki-devops/uk-admin-ex/force-app/main/default/workflows",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1522005088239,
+            "changeTime": 1522005088239,
+            "contentHash": "7fb00a023b87cf19671452bb28b7c7d588d2f173"
+        }
+    ]
+]
