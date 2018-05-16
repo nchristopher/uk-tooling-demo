@@ -32,14 +32,14 @@
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1526477731003,
             "changeTime": 1526477731003,
-            "contentHash": "2ed1966858a69d044a020a30defd95645b188ea7"
+            "contentHash": "2ed1966858a69d044a020a30defd95645b188ea7",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -169,179 +169,179 @@
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/objects/Account/fields/Sample__c.field-meta.xml",
             "isDirectory": false,
             "isMetadataFile": true,
-            "size": 364,
-            "modifiedTime": 1526477730929,
-            "changeTime": 1526477730929,
-            "contentHash": "d9fbe2c256b67040c2b6fc97d1b16b7dd0b0744e"
+            "size": 363,
+            "modifiedTime": 1526477800101,
+            "changeTime": 1526477800101,
+            "contentHash": "60727737ca472a907d03bae4a773dd915908239a"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account %28Sales%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9706,
             "modifiedTime": 1526477730956,
             "changeTime": 1526477730956,
-            "contentHash": "1209d6ab368398212fbfc32b81f6be0da092c57e"
+            "contentHash": "1209d6ab368398212fbfc32b81f6be0da092c57e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account %28Marketing%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9754,
             "modifiedTime": 1526477730973,
             "changeTime": 1526477730973,
-            "contentHash": "4c77e5c9d11c5dc17af1a4726266f4e3eab084b9"
+            "contentHash": "4c77e5c9d11c5dc17af1a4726266f4e3eab084b9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9706,
             "modifiedTime": 1526477730986,
             "changeTime": 1526477730986,
-            "contentHash": "cfe62e0ec6226c0056d3cf65239a12a22b6f0786"
+            "contentHash": "cfe62e0ec6226c0056d3cf65239a12a22b6f0786",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts/Account-Account %28Support%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9754,
             "modifiedTime": 1526477730996,
             "changeTime": 1526477730996,
-            "contentHash": "c790b39fa5efeb9b2ec88eb206069f30d28d379a"
+            "contentHash": "c790b39fa5efeb9b2ec88eb206069f30d28d379a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5168,
             "modifiedTime": 1526477731004,
             "changeTime": 1526477731004,
-            "contentHash": "0039e252824e7abf4b6078e029ca1d20716b2386"
+            "contentHash": "0039e252824e7abf4b6078e029ca1d20716b2386",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4832,
             "modifiedTime": 1526477731009,
             "changeTime": 1526477731009,
-            "contentHash": "02fd8d9f1ea60a3e5231f2e428340aa2028dc3aa"
+            "contentHash": "02fd8d9f1ea60a3e5231f2e428340aa2028dc3aa",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 17870,
             "modifiedTime": 1526477731017,
             "changeTime": 1526477731017,
-            "contentHash": "9b5dd8cbaf426980792b80a1bf15e4756461f9b4"
+            "contentHash": "9b5dd8cbaf426980792b80a1bf15e4756461f9b4",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4828,
             "modifiedTime": 1526477731023,
             "changeTime": 1526477731023,
-            "contentHash": "ffda48f08ced89657eea95bad2a1ccd5885b90c6"
+            "contentHash": "ffda48f08ced89657eea95bad2a1ccd5885b90c6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/objects/Account/fields",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/objects/Account/fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1526477730928,
             "changeTime": 1526477730928,
-            "contentHash": "ceb670fa59b062a1861b5af1f408e21563598300"
+            "contentHash": "ceb670fa59b062a1861b5af1f408e21563598300",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/objects/Account",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/objects/Account",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1526477730927,
             "changeTime": 1526477730927,
-            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/objects",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/objects",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1526477730927,
             "changeTime": 1526477730927,
-            "contentHash": "85dfa32c97d8618d1bea083609e2c8a29845abe5"
+            "contentHash": "85dfa32c97d8618d1bea083609e2c8a29845abe5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1526477730996,
             "changeTime": 1526477730996,
-            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0"
+            "contentHash": "e3687f65b0885128a02e534ece5e0cf3ce9f38c0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles",
         {
-            "state": "u",
             "sourcePath": "/Users/spatnaik/Desktop/wtdemo1/force-app/main/default/profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1526477731023,
             "changeTime": 1526477731023,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]
