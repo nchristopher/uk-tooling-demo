@@ -5,6 +5,7 @@ public with sharing class DaveClass {
             system.debug('DAVE TEST');
             system.debug('DAVE TEST2');
             system.debug('DAVE TEST3'); 
+            system.debug('DAVE TEST4');             
 
     }
 }
